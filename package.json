@@ -1,0 +1,19 @@
+{
+  "name": "diff-vue",
+  "version": "1.0.0",
+  "main": "webpack.dev.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "snabbdom": "^3.0.1",
+    "webpack-cli": "3.3.12"
+  },
+  "devDependencies": {
+    "webpack": "^5.28.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
