@@ -1,5 +1,4 @@
 export default function createElement(vnode) {
-    console.log('进来了', vnode)
     // 创建dom节点，绑定到vnode的 elm 属性上，但是此次dom的节点还是一个孤儿dom节点，
     let domNode = document.createElement(vnode.sel);
     // 如果vnode的文本信息不为空，则直接设置为
